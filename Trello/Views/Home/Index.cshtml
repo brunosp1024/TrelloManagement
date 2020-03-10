@@ -157,10 +157,7 @@
         }
 
         $.post("@Url.Action("SaveTask", "Home")",
-            object,
-            function (data, status) {
-                alert("salvo");
-            });
+            object);
 
     }
 
@@ -184,7 +181,7 @@
                 }
             }
 
-            alert("CardId: " + element[0].cardId + " | " + "ListId: " + element[0].listId)
+            
 
             listID = element[0].listId;
             cardId = element[0].cardId;
@@ -198,10 +195,7 @@
         }
 
         $.post("@Url.Action("DeleteTask", "Home")",
-            object,
-            function (data, status) {
-                alert("Deletado");
-            });
+            object);
     }
 
 
