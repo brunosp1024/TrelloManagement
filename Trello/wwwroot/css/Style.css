@@ -1,0 +1,19 @@
+﻿.container h2 {
+    color: white;
+    text-align:center;
+}
+
+header {
+    width: 100%;
+    padding: 8px;
+    background: black;
+}
+
+#rodape {
+    position: relative;
+    text-align: center;
+    margin-top: 550px;
+    border-top: 1px dotted #222;
+    color: #222;
+    padding: 15px;
+}
